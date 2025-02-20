@@ -26,7 +26,7 @@ export default function ReviewCreate() {
         <div className='review-store-address'>{placeData.subtitle || '가게 주소 없음'}</div>
       </div>
       <div className='review-card-wrap'>
-      <Card disableBookmark={true} location={placeData} />
+      <Card disableBookmark={true} location={placeData} isReviewMode={true} />
       </div>
     </div>
 </>
