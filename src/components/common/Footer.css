@@ -5,8 +5,8 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f8f8f8;
-    padding: 10px 0;
+    background-color: #ffffff;
+    padding: 8px 0;
     border-top: 1px solid #ddd;
 }
 
@@ -22,7 +22,7 @@
 .footer-item .icon {
     object-fit: contain;
     transition: opacity 0.3s ease;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
 .footer-item.active {

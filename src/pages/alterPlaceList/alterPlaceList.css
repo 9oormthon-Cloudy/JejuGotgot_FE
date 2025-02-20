@@ -1,6 +1,6 @@
 /* styles.css */
 .alter-detail-container {
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .back_gray {
@@ -101,8 +101,8 @@
 /* 네비게이션 버튼 기본 스타일 덮어쓰기 */
 .swiper-button-next,
 .swiper-button-prev {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -111,7 +111,7 @@
 /* 화살표 아이콘 크기와 색상 수정 */
 .swiper-button-next:after,
 .swiper-button-prev:after {
-    font-size: 18px;
+    font-size: 15px;
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
 }
@@ -137,15 +137,7 @@
     opacity: 0.5;
 }
 
-.image-caption {
-    display: inline;
-    color: white;
-    padding: 4px 6px;
-    border-radius: 4px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-right: 4px;
-}
+
 
 .char {
     display: inline-block;

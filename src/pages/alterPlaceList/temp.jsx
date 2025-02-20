@@ -21,7 +21,7 @@ const mockData = [
   },
   {
     id: 2,
-    category: '우도',
+    category: '성산일출봉',
     title: '우도봉',
     badge: '인기',
     address: '제주 제주시 우도면 우도봉길 105',
@@ -32,7 +32,7 @@ const mockData = [
   },
   {
     id: 3,
-    category: '한라산',
+    category: '성산일출봉',
     title: '백록담',
     badge: '핫플',
     address: '제주 제주시 한라산길 220',
