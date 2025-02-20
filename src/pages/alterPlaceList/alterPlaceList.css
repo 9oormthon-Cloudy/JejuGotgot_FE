@@ -59,7 +59,7 @@
     width: 100%;
 }
 
-.swiper-slide {
+.temp-swiper-slide {
     display: flex;
     justify-content: center;
     /* 가로 중앙 정렬 */
@@ -68,7 +68,7 @@
 }
 
 
-.swiper-slide img:not(.bookmark-image) {
+.temp-swiper-slide img:not(.bookmark-image) {
     width: 288px;
     height: 320px;
     object-fit: cover;

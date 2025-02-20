@@ -100,7 +100,7 @@ const AlterPlaceList = ({ disableBookmark = false }) => {
           onSlideChange={handleSlideChange}
         >
           {mockData.map((location) => (
-            <SwiperSlide key={location.id}>
+            <SwiperSlide key={location.id}  className="temp-swiper-slide">
                <Card 
                   location={location} 
                   isBookmarked={bookmarkedPlaces.has(location.id)}
