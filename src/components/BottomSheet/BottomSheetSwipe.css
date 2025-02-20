@@ -1,6 +1,6 @@
 .detail-container {
   width: 100%;
-  height: 240px; /* 높이 증가 - 추가 정보 표시를 위해 */
+  height: 183px;
 }
 
 .swiper-container {
@@ -8,8 +8,24 @@
 }
 
 .slide-img {
+  position: relative;
   object-fit: contain;
   /* position: relative; */
+}
+
+
+
+.info-wrapper {
+  width: 100%;
+  position: absolute;
+bottom: 13px;
+left: 17px;
+
+row-gap: 5px;
+/* 
+  display: flex;
+  flex-direction: column; */
+
 }
 
 .img-div {
@@ -29,17 +45,23 @@
 .bookmark-button {
   position: absolute;
   top: 0;
+
   right: 19px;
   border: none;
   /* border-radius: 50%; */
   width: 25px;
   height: 37px;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   cursor: pointer;
   padding: 0;
   /* background-color: transparent; */
+}
+
+.bookmark-icon {
+  width: 25px;
+  height: 37px;
 }
 
 /* 위치 정보 컨테이너 */
@@ -55,21 +77,14 @@
 }
 
 .image-name {
-  background-color: #ECECEC;
-  color: rgb(38, 38, 38);
   padding: 14px 8px;
   border-radius: 7px;
 }
 
-.distance {
-  background-color: #ECECEC;
-  color: rgb(38, 38, 38);
-  padding: 14px 8px;
-  border-radius: 7px;
-}
 
 .info-wrapper {
   display: flex;
+  color: white;
 }
 
 .location-info{
@@ -81,23 +96,4 @@
 
 .distance-info {
   font-size: 10px;
-  color: white;
-}
-
-/* 추가 정보 스타일 */
-.additional-info {
-  padding: 10px 18px;
-  background-color: #fff;
-}
-
-.description {
-  font-size: 14px;
-  color: #666;
-  margin: 0 0 4px 0;
-}
-
-.address {
-  font-size: 12px;
-  color: #999;
-  margin: 0;
 }
