@@ -92,8 +92,8 @@
 
 .cloud-character {
     background-color: aliceblue;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     position: relative;
     z-index: 2;
     border-radius: 50%;
@@ -104,7 +104,7 @@
 }
 
 .cloudy-image {
-    width: 110px;
+    width: 130px;
 
     object-fit: contain;
     /* 이미지 비율 유지하며 맞추기 */
@@ -153,12 +153,12 @@
 
     0%,
     100% {
-        transform: scale(1);
-        opacity: 0.8;
+
+        opacity: 0.5;
     }
 
     50% {
-        transform: scale(1.05);
+
         opacity: 1;
     }
 }
