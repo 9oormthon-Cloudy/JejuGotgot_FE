@@ -16,7 +16,7 @@ export default function ReviewCreate() {
 
   return (
     <>
-      <Header title={''} onClick={handleClick}/>
+
     <div className='review-wrap'>
       <div className='review-info-wrap'>
         <p className='review-date'>{getFormattedDate()}</p>
